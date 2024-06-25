@@ -205,7 +205,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: 'https://github.com/gizework21'
+    url: 'https://github.com/gizework21',
   },
   {
     id: 2,
