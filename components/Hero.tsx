@@ -72,9 +72,9 @@ const Hero = () => {
           </div>
 
           {/* Image on the right */}
-          <div className="hidden md:block mt-8 md:mt-0 md:ml-12 lg:ml-16 flex-shrink-0">
+          <div className="hidden md:block mt-8 md:mt-0 md:ml-12 lg:ml-60 flex-shrink-0">
             <img
-              src="/jsm-logo.png"
+              src="/pp.png"
               alt="Hero"
               className="max-w-full h-auto rounded-lg shadow-lg"
             />
