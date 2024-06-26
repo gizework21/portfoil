@@ -102,6 +102,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
+  {
+    id: 5,
+    title: "Kegeberw Taxi",
+    des: "I developed kegeberew taxi  ",
+    img: "/p4.svg",
+    iconLists: ["/react-2.svg", "/tail.svg", "/ts.svg", "/graphql-icon.svg", "/apollo-client.svg"],
+    link: "/ui.apple.com",
+  },
 ];
 
 export const testimonials = [
@@ -152,9 +160,9 @@ export const companies = [
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "GraphQl",
+    img: "/graphql-name.svg",
+    // nameImg: "/hostName.svg",
   },
   {
     id: 4,
@@ -170,34 +178,34 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
-  {
+export const workExperience = [ 
+    {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full stack Developer",
+    desc: "Developed and maintained user-facing features using modern Web development technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Dev Project",
+    desc: "I developed of a web system  for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
+    id: 3,
+    title: "Fullstack Developer - KTS Tech",
+    desc: "Designed and developed Full stack web system using Mern stack Technologies.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Frontend Engineer Intern",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.svg",
   },
 ];
 
