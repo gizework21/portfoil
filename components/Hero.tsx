@@ -74,7 +74,7 @@ const Hero = () => {
           {/* Image on the right */}
           <div className="hidden md:block mt-8 md:mt-0 md:ml-12 lg:ml-60 flex-shrink-0">
             <img
-              src="/pp.png"
+              src="/p3.png"
               alt="Hero"
               className="max-w-full h-auto rounded-lg shadow-lg"
             />

@@ -210,11 +210,16 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
-     url: 'https://github.com/gizework21',
+     url: 'https://x.com/gizeworkmarye21',
   },
   {
     id: 3,
     img: "/link.svg",
      url: 'https://www.linkedin.com/in/gizework-marye/',
+  },
+  {
+    id: 4,  
+    img: "/telegram.svg",
+     url: 'https://t.me/Gizee21',
   },
 ];
