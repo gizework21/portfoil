@@ -1,3 +1,5 @@
+"use client";
+
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -44,7 +46,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center md:flex-row md:items-start">
           <div className="flex flex-col items-center md:items-start">
             <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-              Dynamic Web Magic with Next.js
+            Empowering Your Vision with Cutting-Edge Web Development.
             </p>
 
             {/**
@@ -76,7 +78,7 @@ const Hero = () => {
             <img
               src="/p3.png"
               alt="Hero"
-              className="max-w-full h-auto rounded-lg shadow-lg"
+              className="max-w-full h-auto rounded-lg shadow-lg animate-popOutRight"
             />
           </div>
         </div>
