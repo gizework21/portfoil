@@ -72,27 +72,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "ICarryGo Travel: Effortless Flight, Tour & Hotel Reservations",
+    des: "ICarryGo is a SaaS-based travel booking platform that allows users to book flights, hotels, and tours effortlessly. Built with Next.js, React, and Tailwind CSS, it offers a responsive and intuitive interface. The platform features real-time availability, secure payments, and an admin dashboard for efficient booking management.",
+    img: "/P1IcarryGo.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://github.com/gizework21",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Alfajir Travel: Effortless Flight, Tour & Hotel Reservations",
+    des: "Alfajir is a SaaS-based travel booking platform designed for seamless flight, hotel, and tour reservations. Developed with Next.js, React, and Tailwind CSS, it features an intuitive UI, real-time booking updates, secure payment integration, and a dynamic admin dashboard for efficient management. The platform also supports localization, ensuring a personalized experience for users across different regions.",
+    img: "/P2Alfajir.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "ui.yoom.com",
+    link: "https://github.com/gizework21",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Travex Langing Page",
+    des: "Travex is a visually captivating landing page designed with smooth motion animations to enhance user engagement. Built with modern web technologies, it offers a dynamic and interactive experience, ensuring a seamless and immersive first impression for visitors. The page is optimized for performance, responsiveness, and an intuitive user journey.",
+    img: "/P3Travex.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "ui.aiimg.com",
+    link: "https://github.com/gizework21",
   },
   {
     id: 4,
@@ -100,48 +100,68 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "ui.apple.com",
+    link: "https://github.com/gizework21",
   },
   {
     id: 5,
-    title: "Kegeberw Taxi",
-    des: "I developed kegeberew taxi Admin Dashboard  ",
-    img: "/p4.svg",
-    iconLists: ["/react-2.svg", "/tail.svg", "/ts.svg", "/graphql-icon.svg", "/apollo-client.svg"],
-    link: "ui.apple.com",
+    title: "Santaz website Landing page",
+    des: "Santaz is a visually dynamic landing page featuring smooth animations and interactive elements to enhance user engagement. Designed with modern web technologies, it delivers a seamless and immersive browsing experience. The page is optimized for responsiveness, performance, and intuitive navigation, ensuring a captivating first impression for visitors.",
+    img: "/P4Santaz.png",
+    iconLists: [
+      "/react-2.svg",
+      "/tail.svg",
+      "/ts.svg",
+      // "/graphql-icon.svg",
+      "/apollo-client.svg",
+    ],
+    link: "https://github.com/gizework21",
+  },
+  {
+    id: 6,
+    title: "Kegeberew Ride",
+    des: "Kegeberew Ride is a large-scale ride-hailing platform developed to connect passengers with drivers efficiently. The project is designed to offer a seamless, safe, and scalable transportation solution, focusing on real-time ride booking, tracking, and secure payment processing.",
+    img: "/P5Ktaxi.png",
+    iconLists: [
+      "/react-2.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/graphql-icon.svg",
+      "/apollo-client.svg",
+    ],
+    link: "https://github.com/gizework21",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Gizework Marye was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gizework's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gizework is the ideal partner.",
+      "Working with Gizework Marye was a game-changer for our business. His technical expertise and problem-solving skills ensured a seamless and efficient development process. He goes above and beyond to deliver high-quality work. Highly recommended!",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Gizework Marye was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gizework's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gizework is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Gizework is a highly skilled developer with a keen eye for detail. His ability to transform complex ideas into functional, user-friendly solutions is remarkable. He is reliable, innovative, and a true professional in his field.",
+    name: "Sophia Martinez",
+    title: "CEO of BrightWave Solutions",
   },
   {
     quote:
-      "Collaborating with Gizework Marye was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gizework's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gizework is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've collaborated with many developers, but Gizework stands out. His commitment to excellence, clear communication, and ability to meet deadlines make him an invaluable asset. If you're looking for someone who truly cares about your project, he's the one.",
+    name: "David Thompson",
+    title: "Founder of TechNova Inc.",
   },
   {
     quote:
-      "Collaborating with Gizework Marye was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gizework's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gizework is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From the initial consultation to project completion, Gizework delivered outstanding results. His deep understanding of modern development practices and his dedication to creating seamless user experiences set him apart.",
+    name: "Emily Roberts",
+    title: "Product Manager at InnovateHub",
   },
   {
     quote:
-      "Collaborating with Gizework Marye was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Gizework's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Gizework is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Gizework is a top-notch developer who brings passion and expertise to every project. His problem-solving approach and technical proficiency helped us achieve our goals efficiently. I highly recommend working with him!",
+    name: "James Anderson",
+    title: "CTO at Digital Sphere",
   },
 ];
 
@@ -178,32 +198,32 @@ export const companies = [
   },
 ];
 
-export const workExperience = [ 
-    {
+export const workExperience = [
+  {
     id: 1,
-    title: "Full stack Developer",
-    desc: "Developed and maintained user-facing features using modern Web development technologies.",
+    title: "Fullstack Developer @kegeberew Technologies",
+    desc: "At Kegeberew Technology Solutions, I worked as a Full-Stack Developer on Kegeberew Taxi, China@Africa E-commerce, and Kegeberew Affordable House. I built and optimized features for ride-hailing, e-commerce, and real estate platforms, focusing on performance, scalability, and user experience using React, Next.js, Node.js, and GraphQL.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
   {
     id: 2,
-    title: "Freelance Web Dev Project",
-    desc: "I developed of a web system  for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Fullstack Developer @Santsai Corporation",
+    desc: "As a Full-Stack Developer at Santsai Corporation, I worked on projects like a patient appointment web application and a dating app, handling both front-end and back-end development using React, Next.js, Node.js, and MongoDB.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 3,
-    title: "Fullstack Developer - KTS Tech",
-    desc: "Designed and developed Full stack web system using Mern stack Technologies.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Frontend Developer @Boost software Company",
+    desc: "As a Frontend Developer at Boost Software Company, I worked on a Blood Donation Management System and various e-commerce projects, focusing on building intuitive and responsive user interfaces using React and Next.js.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 4,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer @Techcore Africa",
+    desc: "As a Frontend Developer at Touchcore Africa, I worked on various flight, hotel, and tour booking web applications, transforming 20+ Figma designs into fully integrated, responsive web platforms using React, Next.js, and Tailwind CSS.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -213,21 +233,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: 'https://github.com/gizework21',
+    url: "https://github.com/gizework21",
   },
   {
     id: 2,
     img: "/twit.svg",
-     url: 'https://x.com/gizeworkmarye21',
+    url: "https://x.com/gizeworkmarye21",
   },
   {
     id: 3,
     img: "/link.svg",
-     url: 'https://www.linkedin.com/in/gizework-marye/',
+    url: "https://www.linkedin.com/in/gizework-marye/",
   },
   {
-    id: 4,  
+    id: 4,
     img: "/telegram.svg",
-     url: 'https://t.me/Gizee21',
+    url: "https://t.me/Gizee21",
   },
 ];

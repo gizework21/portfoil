@@ -78,7 +78,7 @@ const Hero = () => {
             <img
               src="/p3.png"
               alt="Hero"
-              className="max-w-full h-auto rounded-lg shadow-lg animate-popOutRight"
+              className="max-w-full h-auto rounded-full shadow-lg animate-popOutRight"
             />
           </div>
         </div>

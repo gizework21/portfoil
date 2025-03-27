@@ -3,10 +3,28 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import { useState } from "react";
 
 const RecentProjects = () => {
-  const handleNavigate = ( link: string | URL | undefined) => {
-    window.open(link, '_blank');
+  const [expandedProject, setExpandedProject] = useState<number | null>(null);
+  const [showModal, setShowModal] = useState<boolean>(false); 
+  const [modalMessage, setModalMessage] = useState<string>(""); 
+
+  const handleNavigate = (link: string | URL | undefined) => {
+    if (link && link !== "") {
+      window.open(link, "_blank");
+    } else {
+      setModalMessage("This is a private project in production.");
+      setShowModal(true);
+    }
+  };
+
+  const toggleDescription = (id: number) => {
+    setExpandedProject(expandedProject === id ? null : id);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
   };
 
   return (
@@ -41,11 +59,11 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                style={{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
-                }}
+                className={`lg:text-xl lg:font-normal font-light text-sm ${
+                  expandedProject === item.id ? "" : "line-clamp-2"
+                }`}
+                style={{ color: "#BEC1DD", margin: "1vh 0", cursor: "pointer" }}
+                onClick={() => toggleDescription(item.id)}
               >
                 {item.des}
               </p>
@@ -56,9 +74,7 @@ const RecentProjects = () => {
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
+                      style={{ transform: `translateX(-${5 * index + 2}px)` }}
                     >
                       <img src={icon} alt="icon5" className="p-2" />
                     </div>
@@ -81,6 +97,22 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
+
+      {/* Modal */}
+      {showModal && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
+            <h2 className="text-lg font-bold text-black mb-4">Notice</h2>
+            <p className="text-gray-700 mb-4">{modalMessage}</p>
+            <button
+              onClick={closeModal}
+              className="bg-purple text-white px-4 py-2 rounded hover:bg-purple-700"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
